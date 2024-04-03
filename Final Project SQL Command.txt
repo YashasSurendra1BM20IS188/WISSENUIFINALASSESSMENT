@@ -1,0 +1,76 @@
+create table Bank(accountNumber int primary key,name varchar(50),ifsc int,amount int);
+ CREATE TABLE Bank (accountNumber int NOT NULL AUTO_INCREMENT PRIMARY KEY,name varchar(50),ifsc int,amount int,PRIMARY KEY (id));
+
+Banking Application 
+
+--------------------
+
+User	: Banking Personal
+ 
+Registration/Opening Account
+
+-----------------------------
+
+Name
+
+AccountNo (Min 6 digits)
+
+IFSC
+
+Initial Amount
+ 
+Deposit
+
+--------
+
+AccountNo
+
+IFSC
+
+Amount
+ 
+Withdrawal
+
+-----------
+
+AccountNo
+
+IFSC
+
+Amount
+ 
+Cheque Deposit
+
+---------------
+
+From Account No
+
+From IFSC
+
+To Account No
+
+To IFSC
+
+Amount
+ 
+Balance Enquiry
+
+----------------
+
+Account No.
+
+IFSC
+ 
+============================================
+ 
+Deliverables
+
+-------------
+
+1. Screen Shots (Word/Pdf)
+
+2. Source Files (frontend)
+
+3. Source Files (backend)
+
+4. DB (.sql/txt)
